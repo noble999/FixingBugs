@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	float answer;
-	cin >> answer >> endl;
-  cout << "Answer = " << answer << endl;
+	cin >> answer;
+  cout << "\nAnswer = " << answer << endl;
 	return 0;
 }
