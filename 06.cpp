@@ -7,6 +7,6 @@ int main()
 {
 	int answer;
 	cin >> answer;
-  cout << "Answer = " << Answer << endl;
+  cout << "Answer = " << answer << endl;
 	return 0;
 }
