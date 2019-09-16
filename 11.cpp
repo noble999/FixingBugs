@@ -6,10 +6,9 @@ using namespace std;
 
 int main()
 {
-
-  cout << "What is your name? ";
   string name;
-  return 0;
+  cout << "What is your name? ";
   cin >> name;
   cout << "Hello " << name << ", nice to know you." << endl;
+  return 0;
 }
