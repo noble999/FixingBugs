@@ -11,13 +11,20 @@ int main()
   cin >> day;
 
   if(day==2 && day==3) //Monday, Tuesday
+  {
     cout << "The workweek is just beginning. Hang in there!\n";
+  }
   else if(day==4 && day==5) //Wednesday, Thursday
+  {
     cout << "Midweek. The worst is over.\n";
+  }
   else if(day==6 && day==7 && day==1) //Friday, Saturday, Sunday
+  {
     cout << "Friday and Weekend! Nice.\n";
+  }
   else
+  {
     cout << "That's not a valid number!" << endl;
-
+  }
   return 0;
 }
