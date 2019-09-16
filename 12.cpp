@@ -7,14 +7,36 @@ using namespace std;
 
 int main()
 {
-  cout << "Give me a number between 1 and 5 ";
   int userchoice;
+
+  cout << "Give me a number between 1 and 5 ";
   cin >> userchoice;
-  if(userchoice==2 || 4)
-    cout << "Number is even!\n";
-  else if(userchoice==1 || 3 || 5)
+
+  if(userchoice==1)
+  {
     cout << "Number is odd!\n";
+  }
+  else if(userchoice==3)
+  {
+    cout << "Number is odd!\n";
+  }
+  else if(userchoice==5)
+  {
+    cout << "Number is odd!\n";
+  }
+  else if(userchoice==2)
+  {
+    cout << "Number is even!\n";
+  }
+  else if(userchoice==4)
+  {
+    cout << "Number is even!\n";
+  }
+
+
   else
+  {
     cout << "You didn't give me a number between 1 and 5!\n";
+  }
   return 0;
 }
