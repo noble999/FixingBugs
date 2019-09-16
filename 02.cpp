@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-	float 1height;
-	cin >> 1height;
-  cout << "Height = " << 1height << endl;
+	float height;
+	cin >> height;
+  cout << "Height = " << height << endl;
 	return 0;
 }
