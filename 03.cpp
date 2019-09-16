@@ -9,6 +9,6 @@ int main()
 {
 	float answer;
 	cin >> answer;
-  cout << "\nAnswer = " << answer << endl;
+  cout << "Answer = " << answer << endl;
 	return 0;
 }
